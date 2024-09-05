@@ -1,0 +1,28 @@
+{
+	"name": "theme-1",
+	"displayName": "theme_1",
+	"description": "",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.80.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"iconThemes": [
+			{
+				"id": "theme1",
+				"label": "theme 1",
+				"path": "./themes/icon-theme.json"
+			}
+		],
+		"themes": [
+			{
+				"label": "theme 1",
+				"uiTheme": "vs-dark",
+				"path": "./themes/theme 1-color-theme.json"
+			}
+		]
+	}
+}
